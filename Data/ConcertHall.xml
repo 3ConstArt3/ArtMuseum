@@ -1,0 +1,22 @@
+<concert_hall>
+	<presentations>
+		<movie id="0">
+			<title>Oppenheimer</title>
+			<image>Images/movies/Oppenheimer.jpg</image>
+			<date>20/12/2023</date>
+			<time>19:30</time>
+		</movie>
+		<movie id="1">
+			<title>Joker</title>
+			<image>Images/movies/Joker.jpg</image>
+			<date>18/12/2023</date>
+			<time>21:00</time>
+		</movie>
+		<movie id="2">
+			<title>The Dark Knight</title>
+			<image>Images/movies/DarkKnight.jpg</image>
+			<date>13/12/2023</date>
+			<time>15:30</time>
+		</movie>
+	</presentations>
+</concert_hall>

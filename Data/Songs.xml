@@ -1,0 +1,14 @@
+<songs>
+	<song title="Without Me" artist="Eminem" category="Rap" duration="04:44" songPath="Music/Eminem_Without-Me.mp3" />
+	<song title="Not Afraid" artist="Eminem" category="Rap" duration="04:18" songPath="Music/Eminem_Not-Afraid.mp3" />
+	<song title="Venom" artist="Eminem" category="Rap" duration="04:27" songPath="Music/Eminem_Venom.mp3" />
+	<song title="Alejandro" artist="Lady Gaga" category="Pop" duration="06:19" songPath="Music/LadyGaga_Alejandro.mp3"/>
+	<song title="Bad Romance" artist="Lady Gaga" category="Pop" duration="04:43" songPath="Music/LadyGaga_BadRomance.mp3"/>
+	<song title="Judas" artist="Lady Gaga" category="Electro House" duration="04:42" songPath="Music/LadyGaga_Judas.mp3"/>
+	<song title="Smooth Criminal" artist="Micheal Jackson" category="Pop" duration="08:21" songPath="Music/MJ_Smooth-Criminal.mp3"/>
+	<song title="Billie Jean" artist="Micheal Jackson" category="Pop" duration="04:53" songPath="Music/MJ_Billie-Jean.mp3"/>
+	<song title="Beat It" artist="Micheal Jackson" category="Pop" duration="04:37" songPath="Music/MJ_Beat-It.mp3"/>
+	<song title="Let's Dance" artist="David Bowie" category="Pop" duration="04:06" songPath="Music/DavidBowie_Lets-Dance.mp3"/>
+	<song title="The Man Who Sold the World" artist="David Bowie" category="Pop" duration="03:53" songPath="Music/DavidBowie_TheManWhoSoldTheWorld.mp3"/>
+	<song title="Moonage Daydream" artist="David Bowie" category="Pop" duration="04:38" songPath="Music/DavidBowie_Moonage-Daydream.mp3"/>
+</songs>

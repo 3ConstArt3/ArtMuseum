@@ -1,0 +1,280 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Images\Food\**" />
+    <EmbeddedResource Remove="Images\Food\**" />
+    <None Remove="Images\Food\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Data\CoffeeHall.xml" />
+    <None Remove="Data\ConcertHall.xml" />
+    <None Remove="Data\gallery.xml" />
+    <None Remove="Data\General.xml" />
+    <None Remove="Data\KaraokeSongs.xml" />
+    <None Remove="Data\Songs.xml" />
+    <None Remove="Data\Videos.xml" />
+    <None Remove="Images\Drinks\CocaCola.png" />
+    <None Remove="Images\Drinks\cola.png" />
+    <None Remove="Images\Drinks\fanta.png" />
+    <None Remove="Images\Drinks\hell.png" />
+    <None Remove="Images\Foods\Fries.png" />
+    <None Remove="Images\Foods\hamburger.png" />
+    <None Remove="Images\Foods\Nachos.png" />
+    <None Remove="Images\General\ArtLogo.png" />
+    <None Remove="Images\General\DJAudio.png" />
+    <None Remove="Images\General\MoviesLogo.png" />
+    <None Remove="Images\General\MusicLogo.png" />
+    <None Remove="Images\Movies\DarkKnight.jpg" />
+    <None Remove="Images\Movies\ForrestGump.jpg" />
+    <None Remove="Images\Movies\Gladiator.jpg" />
+    <None Remove="Images\Movies\Joker.jpg" />
+    <None Remove="Images\Movies\Oppenheimer.jpg" />
+    <None Remove="Images\Movies\Terminator.jpg" />
+    <None Remove="Images\Music\bowie.jpg" />
+    <None Remove="Images\Music\CelineDion.jpg" />
+    <None Remove="Images\Music\DavidBowie.jpg" />
+    <None Remove="Images\Music\eminem.jpg" />
+    <None Remove="Images\Music\LadyGaga.jpg" />
+    <None Remove="Images\Music\MCJackson.jpg" />
+    <None Remove="Images\Music\michealjackson.jpg" />
+    <None Remove="Images\Music\StevePerry.jpg" />
+    <None Remove="Images\Painters\davinci.jpg" />
+    <None Remove="Images\Painters\michelangelo.jpg" />
+    <None Remove="Images\Painters\monet.jpg" />
+    <None Remove="Images\Painters\raffaello.jpg" />
+    <None Remove="Images\Painters\rembrandt.jpg" />
+    <None Remove="Images\Painters\van_gogh.jpg" />
+    <None Remove="Manuals\helpscribble_helpfile.chm" />
+    <None Remove="Music\DavidBowie_Lets-Dance.mp3" />
+    <None Remove="Music\DavidBowie_Moonage-Daydream.mp3" />
+    <None Remove="Music\DavidBowie_TheManWhoSoldTheWorld.mp3" />
+    <None Remove="Music\Eminem_Not-Afraid.mp3" />
+    <None Remove="Music\Eminem_Venom.mp3" />
+    <None Remove="Music\Eminem_Without-Me.mp3" />
+    <None Remove="Music\LadyGaga_Alejandro.mp3" />
+    <None Remove="Music\LadyGaga_BadRomance.mp3" />
+    <None Remove="Music\LadyGaga_Judas.mp3" />
+    <None Remove="Music\MJ_Beat-It.mp3" />
+    <None Remove="Music\MJ_Billie-Jean.mp3" />
+    <None Remove="Music\MJ_Smooth-Criminal.mp3" />
+    <None Remove="Videos\Eminem_WithoutMe.mp4" />
+    <None Remove="Videos\JOKER_trailer.mp4" />
+    <None Remove="Videos\LadyGaga_Alejandro.mp4" />
+    <None Remove="Videos\MJ_Billie-Jean.mp4" />
+    <None Remove="Videos\Oppenheimer_trailer.mp4" />
+    <None Remove="Videos\TheDarkKnight_trailer.mp4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <COMReference Include="WMPLib">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>6bf52a50-394a-11d3-b153-00c04f79faa6</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxWMPLib">
+      <WrapperTool>aximp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>6bf52a50-394a-11d3-b153-00c04f79faa6</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Data\CoffeeHall.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ConcertHall.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Gallery.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\General.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\KaraokeSongs.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Songs.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Videos.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Drinks\CocaCola.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Drinks\Fanta.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Drinks\Hell.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Foods\Fries.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Foods\hamburger.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Foods\Nachos.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\General\ArtLogo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\General\DJAudio.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\General\MoviesLogo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\General\MusicLogo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Movies\DarkKnight.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Movies\ForrestGump.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Movies\Gladiator.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Movies\Joker.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Movies\Oppenheimer.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Movies\Terminator.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Music\CelineDion.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Music\DavidBowie.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Music\Eminem.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Music\LadyGaga.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Music\MCJackson.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Music\StevePerry.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Painters\davinci.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Painters\michelangelo.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Painters\monet.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Painters\raffaello.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Painters\rembrandt.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Painters\van_gogh.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\DavidBowie_Lets-Dance.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\DavidBowie_Moonage-Daydream.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\DavidBowie_TheManWhoSoldTheWorld.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\Eminem_Not-Afraid.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\Eminem_Venom.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\Eminem_Without-Me.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\LadyGaga_Alejandro.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\LadyGaga_BadRomance.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\LadyGaga_Judas.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\MJ_Beat-It.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\MJ_Billie-Jean.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\MJ_Smooth-Criminal.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Videos\Eminem_WithoutMe.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Videos\JOKER_trailer.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Videos\LadyGaga_Alejandro.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Videos\MJ_Billie-Jean.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Videos\Oppenheimer_trailer.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Videos\TheDarkKnight_trailer.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,13 @@
+<coffee_hall>
+	<foods>
+		<item name="Nachos" price="3.40" imagePath="Images/foods/Nachos.png" />
+		<item name="Hamburger" price="8.50" imagePath="Images/foods/Hamburger.png" />
+		<item name="Fries" price="0.80" imagePath="Images/foods/Fries.png" />
+	</foods>
+
+	<drinks>
+		<item name="Coca-Cola" price="1.30" imagePath="Images/drinks/CocaCola.png" />
+		<item name="Fanta" price="0.90" imagePath="Images/drinks/Fanta.png" />
+		<item name="Hell" price="0.40" imagePath="Images/drinks/Hell.png" />
+	</drinks>
+</coffee_hall>

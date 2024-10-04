@@ -1,0 +1,5 @@
+<songs>
+	<song title="Without Me" artist="Eminem" category="Rap" duration="04:44" videoPath="Videos/Eminem_WithoutMe.mp4" />
+	<song title="Alejandro" artist="Lady Gaga" category="Pop" duration="06:19" videoPath="Videos/LadyGaga_Alejandro.mp4"/>
+	<song title="Billie Jean" artist="Micheal Jackson" category="Pop" duration="04:53" videoPath="Videos/MJ_Billie-Jean.mp4"/>
+</songs>
